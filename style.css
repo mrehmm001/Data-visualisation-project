@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    overflow: hidden;
+    color:white;
+    background: rgb(0, 26, 71);
+}
+
+.menu-item {
+    width: 250px;
+    padding: 10px 0px;
+    border: 1px solid rgba(1, 42, 112,0.5);
+    list-style-type: none;
+    
+    
+}
+
+.container {
+  display: flex; 
+  
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    background: black
+}
+
+#visuals-menu{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#menu{
+    background: orange;
+    height: 1000px;
+    background-color: rgba(0, 20, 54);
+}
+
+#menu #header{
+     font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(1, 42, 112,0.5);
+    text-align: center;
+    padding: 10px;
+}
